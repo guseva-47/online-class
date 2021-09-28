@@ -1,0 +1,21 @@
+{
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/node_modules/": true
+  },
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5433,
+      "driver": "PostgreSQL",
+      "name": "my_class",
+      "database": "my_class",
+      "username": "postgres",
+      "password": "example"
+    }
+  ],
+  // "[typescript]": {
+  //   "editor.tabSize": 4
+  // }
+}
